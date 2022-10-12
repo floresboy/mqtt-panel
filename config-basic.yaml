@@ -6,8 +6,8 @@ mqtt:
   topic-prefix: sourcesimian/mqtt-panel/demo
   auth:
     type: basic
-    username: "mqtt"
-    password: "dribbel1"
+    username: "panelMQTT"
+    password: "panelMQTT"
 
 http:
   bind: 0.0.0.0
