@@ -1,12 +1,12 @@
 mqtt:
-  host: broker.emqx.io
+  host: homeassist
   port: 1883
   client-id: mqtt-panel-demo
   topic-prefix: sourcesimian/mqtt-panel/demo
-  # auth:
-  #   type: basic
-  #   username: "user"
-  #   password: "password"
+  auth:
+    type: basic
+     username: "mqtt"
+     password: "dribbel1"
 
 http:
   bind: 0.0.0.0
