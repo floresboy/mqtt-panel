@@ -33,6 +33,11 @@ This project provides a self hostable service that connects to a MQTT broker and
   - [Development](#development)
 - [License](#license)
 
+git remote set-url origin https://username:token@github.com/username/repository.git
+
+
+
+
 # Demo
 Run
 ```
