@@ -36,7 +36,7 @@ This project provides a self hostable service that connects to a MQTT broker and
 
 # MQTT commands
 ```
-mosquitto_pub -h ha -u mqtt -P dribbel1 -t 'shellies/shelly1-485519034E3B/relay/0/command' -m 'toggle'
+mosquitto_pub -h ha -u panelmqtt -P panelMQTT -t 'shellies/shelly1-485519034E3B/relay/0/command' -m 'toggle'
 ```
 
 
